@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "enis",
+      "patterns": [
+        "name of school?",
+        "definition of school?",
+        "school?"
+      ],
+      "responses": [
+        "The National Engineering School of Sfaxor ENIS, is a Tunisian engineering school and research establishment based in the city of Sfax located in the east of the country. It is a part of the University of Sfax.[ ",
+        "The National Engineering School of Sfax was founded in 1983."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "Do you have clubs?",
+        "Do you accept clubs?",
+        "clubs?",
+        "name the clubs?"
+      ],
+      "responses": [
+        "MTC, IEEE,IRIS Junior Entreprise,NATEG ENIS CHAPTER,CEE, Enis Debate club,Mécanique ENIS,Enactus,Civil engineering club",
+        "we have many clubs such as MTC, IEEE,IRIS Junior Entreprise,NATEG ENIS CHAPTER,CEE, Enis Debate club,Mécanique ENIS,Enactus,Civil engineering club"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact?",
+        "i need contact?",
+        "give me the contact ?"
+      ],
+      "responses": [
+        "Adresse: Route de la Soukra km 4 - 3038 sfax or Email : webmaster@enis.tn",
+        "Tél: +216 70 258 520 / Fax: +216 74 275 595 or Email : webmaster@enis.tn"
+      ]
+    },
+    {
+      "tag": "dep",
+      "patterns": [
+        "Departments?",
+        "names of Departments?",
+        "information about departments?"
+      ],
+      "responses": [
+        "The National Engineering School of Sfax has seven independent departments:Biological engineering Civil engineering Electrical engineering  Computer engineering and applied mathematics Geology  Materials Engineering Mechanical engineering",
+         "enis hav 7 independent departments iological engineering Civil engineering Electrical engineering  Computer engineering and applied mathematics Geology  Materials Engineering Mechanical engineering"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
